@@ -1,0 +1,10 @@
+public class Mesa {
+
+    private UUID id;
+    private int numero;
+    private int capacidade;
+    private StatusMesa status;
+
+    public void alterarStatus(StatusMesa status) {
+    }
+}
