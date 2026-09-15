@@ -1,0 +1,18 @@
+public class PedidoService {
+
+    private IPedidoRepository repo;
+
+    public Pedido criarPedido(UUID mesaId, UUID funcionarioId) {
+        return null;
+    }
+
+    public void finalizarPedido(UUID pedidoId) {
+    }
+
+    public void cancelarPedido(UUID pedidoId) {
+    }
+
+    public List<Pedido> listarPorMesa(UUID mesaId) {
+        return null;
+    }
+}
