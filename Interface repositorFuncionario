@@ -1,0 +1,10 @@
+public interface IRepositorioFuncionario {
+
+    void salvar(Funcionario funcionario);
+
+    Funcionario buscarPorId(UUID id);
+
+    List<Funcionario> listar();
+
+    void excluir(UUID id);
+}
