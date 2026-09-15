@@ -1,0 +1,4 @@
+public interface IPagamento {
+
+    PaymentResult pagar(Pedido pedido, BigDecimal valor);
+}
