@@ -1,0 +1,19 @@
+public class Pedido {
+
+    private UUID id;
+    private UUID mesaId;
+    private UUID funcionarioId;
+    private StatusPedido status;
+    private LocalDateTime dataAbertura;
+    private LocalDateTime dataFechamento;
+
+    public void finalizar() {
+    }
+
+    public void cancelar() {
+    }
+
+    public BigDecimal calcularTotal() {
+        return null;
+    }
+}
