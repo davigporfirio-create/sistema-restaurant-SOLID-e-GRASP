@@ -1,0 +1,21 @@
+public class PedidoItemService {
+
+    private IPedidoItemRepository repo;
+
+    public void adicionarItem(
+            UUID pedidoId,
+            UUID produtoId,
+            BigDecimal qtd,
+            String observacao) {
+    }
+
+    public void alterarItem(UUID itemId, BigDecimal qtd) {
+    }
+
+    public void removerItem(UUID itemId) {
+    }
+
+    public List<PedidoItem> listarPorPedido(UUID pedidoId) {
+        return null;
+    }
+}
