@@ -1,0 +1,7 @@
+public class PagamentoDinheiro implements IPagamento {
+
+    @Override
+    public PaymentResult pagar(Pedido pedido, BigDecimal valor) {
+        return null;
+    }
+}
