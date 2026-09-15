@@ -1,0 +1,17 @@
+public class ProdutoService {
+
+    private IRepositorioProduto repo;
+
+    public void cadastrar(Produto produto) {
+    }
+
+    public void atualizar(Produto produto) {
+    }
+
+    public void excluir(UUID id) {
+    }
+
+    public List<Produto> listar() {
+        return null;
+    }
+}
