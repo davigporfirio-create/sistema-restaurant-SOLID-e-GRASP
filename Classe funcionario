@@ -1,0 +1,15 @@
+public class Funcionario {
+
+    private UUID id;
+    private String nome;
+    private String cpf;
+    private String email;
+    private String cargo;
+    private boolean status;
+
+    public void atualizarDados() {}
+
+    public void ativar() {}
+
+    public void desativar() {}
+}
