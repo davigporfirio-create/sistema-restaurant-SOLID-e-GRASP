@@ -1,0 +1,17 @@
+public class EstoqueService {
+
+    private IRepositorioEstoque repo;
+
+    public void registrarEntrada(UUID produtoId, BigDecimal qtd) {
+    }
+
+    public void registrarSaida(UUID produtoId, BigDecimal qtd) {
+    }
+
+    public void ajustarMinimo(UUID produtoId, BigDecimal minimo) {
+    }
+
+    public List<Estoque> consultarEstoque() {
+        return null;
+    }
+}
