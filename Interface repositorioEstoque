@@ -1,0 +1,8 @@
+public interface IRepositorioEstoque {
+
+    void salvar(Estoque estoque);
+
+    Estoque buscarPorProduto(UUID produtoId);
+
+    List<Estoque> listar();
+}
