@@ -1,0 +1,17 @@
+public class FuncionarioService {
+
+    private IRepositorioFuncionario repo;
+
+    public void cadastrar(Funcionario funcionario) {
+    }
+
+    public void atualizar(Funcionario funcionario) {
+    }
+
+    public void excluir(UUID id) {
+    }
+
+    public List<Funcionario> listar() {
+        return null;
+    }
+}
