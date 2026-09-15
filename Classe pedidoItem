@@ -1,0 +1,13 @@
+public class PedidoItem {
+
+    private UUID id;
+    private UUID pedidoId;
+    private UUID produtoId;
+    private BigDecimal quantidade;
+    private BigDecimal precoUnitario;
+    private String observacao;
+
+    public BigDecimal subtotal() {
+        return null;
+    }
+}
