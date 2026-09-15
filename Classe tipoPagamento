@@ -1,0 +1,9 @@
+public class TipoPagamento {
+
+    private UUID id;
+    private String nome;
+
+    public static final String DINHEIRO = "DINHEIRO";
+    public static final String CARTAO = "CARTAO";
+    public static final String PIX = "PIX";
+}
