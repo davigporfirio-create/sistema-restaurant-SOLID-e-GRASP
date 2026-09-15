@@ -1,0 +1,8 @@
+public interface IPedidoItemRepository {
+
+    void salvar(PedidoItem item);
+
+    List<PedidoItem> buscarPorPedido(UUID pedidoId);
+
+    void excluir(UUID id);
+}
