@@ -1,0 +1,8 @@
+public interface IMesaRepository {
+
+    void salvar(Mesa mesa);
+
+    Mesa buscarPorId(UUID id);
+
+    List<Mesa> listar();
+}
