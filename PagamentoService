@@ -1,0 +1,16 @@
+public class PagamentoService {
+
+    private List<IPagamento> metodos;
+
+    public PaymentResult processarPagamento(
+            Pedido pedido,
+            TipoPagamento metodo,
+            BigDecimal valor) {
+
+        return null;
+    }
+
+    public List<TipoPagamento> listarMetodos() {
+        return null;
+    }
+}
