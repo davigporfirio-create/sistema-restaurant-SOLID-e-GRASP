@@ -1,0 +1,16 @@
+public class Produto {
+
+    private UUID id;
+    private String nome;
+    private BigDecimal preco;
+    private boolean status;
+
+    public void atualizar() {
+    }
+
+    public void ativar() {
+    }
+
+    public void desativar() {
+    }
+}
