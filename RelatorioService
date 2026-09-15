@@ -1,0 +1,20 @@
+public class RelatorioService {
+
+    public Relatorio relatorioVendas(
+            LocalDate dataInicio,
+            LocalDate dataFim) {
+
+        return null;
+    }
+
+    public Relatorio relatorioEstoque() {
+        return null;
+    }
+
+    public Relatorio relatorioPedidos(
+            LocalDate dataInicio,
+            LocalDate dataFim) {
+
+        return null;
+    }
+}
