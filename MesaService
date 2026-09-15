@@ -1,0 +1,17 @@
+public class MesaService {
+
+    private IMesaRepository repo;
+
+    public void cadastrar(Mesa mesa) {
+    }
+
+    public void atualizar(Mesa mesa) {
+    }
+
+    public void alterarStatus(UUID id, StatusMesa status) {
+    }
+
+    public List<Mesa> listar() {
+        return null;
+    }
+}
