@@ -1,0 +1,8 @@
+public interface IPedidoRepository {
+
+    void salvar(Pedido pedido);
+
+    Pedido buscarPorId(UUID id);
+
+    List<Pedido> listarPorMesa(UUID mesaId);
+}
