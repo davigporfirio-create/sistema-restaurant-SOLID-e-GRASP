@@ -1,0 +1,8 @@
+public enum CargoEnum {
+
+    GARCOM,
+    COZINHEIRO,
+    CAIXA,
+    GERENTE,
+    ADMIN
+}
