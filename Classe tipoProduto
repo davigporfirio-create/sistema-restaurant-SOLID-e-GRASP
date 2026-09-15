@@ -1,0 +1,5 @@
+public class TipoProduto {
+
+    private UUID id;
+    private String nome;
+}
