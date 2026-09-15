@@ -1,0 +1,5 @@
+public class PaymentResult {
+
+    private boolean sucesso;
+    private String mensagem;
+}
