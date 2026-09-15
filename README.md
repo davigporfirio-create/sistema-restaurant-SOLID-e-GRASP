@@ -3,6 +3,6 @@
 
 - Gabriel Martins Feijó(2510421)
 - Davi Bezerra(2510471)
-- Davi Gomes
+- Davi Gomes(2516226)
 - Ian Alves
 
