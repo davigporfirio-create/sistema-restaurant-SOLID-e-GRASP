@@ -1,0 +1,16 @@
+public class Estoque {
+
+    private UUID id;
+    private UUID produtoId;
+    private BigDecimal quantidade;
+    private BigDecimal estoqueMinimo;
+
+    public void adicionar(BigDecimal qtd) {
+    }
+
+    public void remover(BigDecimal qtd) {
+    }
+
+    public void atualizarMinimo(BigDecimal minimo) {
+    }
+}
